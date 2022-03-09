@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('crown_96/index', { id: '408628096', name: '黃楷鈞' });
+  res.render('index', { title: 'Express' });
 });
 
 module.exports = router;
